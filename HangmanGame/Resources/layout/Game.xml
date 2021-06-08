@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+    <ImageView
+        android:src="@drawable/hanger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200px"
+        android:minHeight="200px"
+        android:id="@+id/img"
+        android:layout_marginBottom="0.0dp" />
+
+    <TextView
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/txtWord" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:text="a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn1" />
+        <Button
+            android:text="b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn2" />
+        <Button
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn3" />
+
+        <Button
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn4" />
+        <Button
+            android:text="E"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn5" />
+        <Button
+            android:text="F"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn6" />
+        <Button
+            android:text="G"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn7" />
+
+        <Button
+            android:text="H"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn8" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="I"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn9" />
+
+        <Button
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn10" />
+        <Button
+            android:text="K"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn11" />
+        <Button
+            android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn12" />
+        <Button
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn13" />
+        <Button
+            android:text="N"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn14" />
+
+
+        <Button
+            android:text="O"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn15" />
+
+        <Button
+            android:text="P"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn16" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="52.0dp">
+
+        <Button
+            android:text="q"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn17" />
+
+        <Button
+            android:text="R"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn18" />
+        <Button
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn19" />
+        <Button
+            android:text="T"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn20" />
+        <Button
+            android:text="U"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn21" />
+        <Button
+            android:text="V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn22" />
+
+
+        <Button
+            android:text="W"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn23" />
+
+        <Button
+            android:text="X"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn25" />
+
+        <Button
+            android:text="Z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="20px"
+            android:minHeight="100px"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btn26" />
+        
+         <Button
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10dp" 
+         android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/btnExit" />
+
+   
+
+
+    </LinearLayout>
+   
+
+</LinearLayout>
